@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080808">
+<title>Kagaz Ki Kashti | Temple Connect</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<section id="cover" class="screen active">
+  <div class="cover-glow"></div>
+  <div class="cover-card">
+    <img src="temple-connect-logo.png" class="logo" alt="Temple Connect">
+    <div class="rule"></div>
+    <div class="kicker">A FULL-LENGTH DOCUMENTARY FILM</div>
+    <h1>Kagaz Ki Kashti</h1>
+    <p class="film">A film by Brahmanand S. Singh</p>
+    <p class="presented">Presented by Temple Connect</p>
+    <button id="openInvitation">OPEN INVITATION</button>
+  </div>
+</section>
+
+<section id="hero" class="screen">
+  <div class="hero-image">
+    <img src="jagjit-singh.jpg" alt="Jagjit Singh Ji">
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-brand">TEMPLE CONNECT</div>
+    <h2>Kagaz Ki Kashti</h2>
+    <p>In memory of Padma Bhushan Jagjit Singh</p>
+  </div>
+  <button id="scrollButton" class="scroll-button">
+    <span>↓</span>
+    <b>SCROLL DOWN</b>
+  </button>
+  <button id="musicButton" class="music-button">♫ Music On</button>
+</section>
+
+<section id="details" class="details">
+  <article class="detail-card">
+    <img src="temple-connect-logo.png" class="detail-logo" alt="Temple Connect">
+    <div class="kicker">PRESENTED BY TEMPLE CONNECT</div>
+    <h2>Kagaz Ki Kashti</h2>
+    <h3>A Full-Length Documentary Film</h3>
+    <p class="byline">A film by Brahmanand S. Singh</p>
+
+    <div class="tribute">
+      <p>Temple Connect presents <strong>“Kagaz Ki Kashti”</strong>, a full-length documentary film on the <strong>15th Immortality Day</strong> of our beloved <strong>Padma Bhushan Jagjit Singh.</strong></p>
+    </div>
+
+    <div class="event">
+      <div class="date"><small>SATURDAY</small><strong>10</strong><span>OCTOBER 2026</span></div>
+      <div class="time"><strong>6:30 PM</strong><span>ONWARDS</span></div>
+    </div>
+
+    <div class="event-notice">
+      <p><strong>Registration: 6:30 PM onwards</strong></p>
+      <p><strong>Event Starts: 7:15 PM</strong></p>
+      <p><strong>Seating on First Come, First Served Basis</strong></p>
+      <p><strong>Please Confirm Your RSVP</strong></p>
+    </div>
+
+    <div class="venue">
+      <small>VENUE</small>
+      <h4>Yashwantrao Chavan Academy of Development Administration (YASHADA)</h4>
+      <p>Raj Bhavan Awaar, Baner Road,<br>Pune, Maharashtra – 411007</p>
+    </div>
+
+    <div class="rsvp">
+      <small>RSVP</small>
+      <strong>Sachin Karanje</strong>
+      <a href="tel:+919769386417">9769386417</a>
+    </div>
+
+    <div class="rsvp-actions">
+      <button type="button" class="form-btn" id="openRsvpForm">CONFIRM YOUR PRESENCE</button>
+    </div>
+
+    <div class="rsvp-form-wrap hidden" id="rsvpFormWrap">
+      <div class="form-title">CONFIRM YOUR PRESENCE</div>
+      <form id="rsvpForm">
+        <label>
+          Your Name
+          <input id="guestName" name="guestName" type="text" autocomplete="name" required placeholder="Enter your name">
+        </label>
+        <label>
+          Will you attend?
+          <select id="attendance" name="attendance" required>
+            <option value="">Select</option>
+            <option value="Yes, I will attend">Yes, I will attend</option>
+            <option value="No, I will not be able to attend">No, I will not be able to attend</option>
+          </select>
+        </label>
+        <label>
+          Number of Guests
+          <select id="guestCount" name="guestCount" required>
+            <option value="">Select</option>
+            <option>1</option><option>2</option><option>3</option><option>4</option><option>5+</option>
+          </select>
+        </label>
+        <button type="submit" class="submit-rsvp">SEND RSVP ON WHATSAPP</button>
+      </form>
+      <p class="form-note">Your confirmation will open directly in WhatsApp to Sachin Karanje.</p>
+    </div>
+
+    <div class="buttons">
+      <a href="https://maps.app.goo.gl/EEtaUpxiLFbZSFVp9?g_st=ic" target="_blank" rel="noopener">📍 GOOGLE MAPS</a>
+      <a href="tel:+919769386417">📞 RSVP · CALL</a>
+    </div>
+
+    <div class="closing">A journey of words, music, memories and an immortal voice.</div>
+    <div class="signature">♪ Kagaz Ki Kashti ♪</div>
+  </article>
+</section>
+</main>
+
+<audio id="audio" preload="auto" playsinline>
+  <source src="event-music.m4a" type="audio/mp4">
+</audio>
+<script src="script.js"></script>
+</body>
+</html>
